@@ -1,0 +1,115 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?"
+      ],
+      "responses": [
+        "We sell samsung electronic products",
+        "We have samsung electronic products"
+      ]
+    },
+    {
+      "tag": "phones",
+      "patterns": [
+        "Which model do you have?",
+        "What kinds of phone model are there?",
+        "What is the latest model in samsung?"
+      ],
+      "responses": [
+        "We sell samsung a42, a12, m31, f31, s21",
+        "We have samsung a42, a12, m31, f31, s21"
+      ]
+    },
+    {
+      "tag": "5g",
+      "patterns": [
+        "Do you have 5g phones?",
+        "can you have 5g phones?"
+        ],
+      "responses": [
+        "yes, we have galaxy note ultra, s21 ultra, s20, w20, f52, m42, a52, a90",
+        "yes, we sell galaxy note ultra, s21 ultra, s20, w20, f52, m42, a52, a90"
+      ]
+    },
+    {
+      "tag": "tv",
+      "patterns": [
+        "Do you have QLED tv?",
+        "Do you have HD TV?"
+         ],
+      "responses": [
+        "yes, Samsung offers LED TVs like HD TV, The Frame TV, Full HD TV, 4K UHD TV, QLED 8K TV, QLED 4K TV, Curved TV, Smart TV with latest technology"
+      ]
+    },
+    {
+      "tag": "screensize",
+      "patterns": [
+        "tell me about screensize",
+        "What is the maximum screen size in samsung?"
+      ],
+      "responses": [
+        "85 is the biggest screensize. For Qled, screen size range from 55 to 85. For hd tv, we have the range from above 30 to 70"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?"
+      ],
+      "responses": [
+        "Delivery takes 2-4 days",
+        "Shipping takes 2-4 days"
+      ]
+    }
+  ]
+}
