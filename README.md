@@ -33,6 +33,9 @@ Here are the 5 steps to create a chatbot in Python from scratch:
           To run the chatbot, we have two main files; trainchatbot.py and chatbot.py. If we don’t see any error during training, we have successfully created the model. Then to run the app, we run the second file.python chatbot.py. The program will open up a GUI window within a few seconds. With the GUI you can easily chat with the bot.
           
 Output of the chatbot is shown in the chatbot.jpeg file in the above.
+
+![image](https://user-images.githubusercontent.com/69139140/119218565-95a4d800-bafe-11eb-8042-0deca3e53a7b.png)
+
                  
 
                    
