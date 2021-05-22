@@ -31,4 +31,11 @@ Here are the 5 steps to create a chatbot in Python from scratch:
                    To predict the sentences and get a response from the user to let us create a new file ‘chatapp.py’. We will load the trained model and then use a graphical user interface that will predict the response from the bot. The model will only tell us the class it belongs to, so we will implement some functions which will identify the class and then retrieve us a random response from the list of responses. Now we will develop a graphical user interface. Let’s use Tkinter library which is shipped with tons of useful libraries for GUI. We will take the input message from the user and then use the helper functions we have created to get the response from the bot and display it on the GUI. Here is the full source code for the GUI.
  6. Run the chatbot
           To run the chatbot, we have two main files; trainchatbot.py and chatbot.py. If we don’t see any error during training, we have successfully created the model. Then to run the app, we run the second file.python chatbot.py. The program will open up a GUI window within a few seconds. With the GUI you can easily chat with the bot.
+          
+Output of the chatbot is shown in the chatbot.jpeg file in the above.
+                 
+
+                   
+
+
  
