@@ -1,0 +1,176 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello"
+      ],
+      "responses": [
+        "Hi there, My name is bot. Welcome to Samsung. What can I do for you?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?"
+      ],
+      "responses": [
+        "We have samsung electronic products like tv, phone, washing machine, refridgerator, ac"
+      ]
+    },
+    {
+      "tag": "phones",
+      "patterns": [
+        "Which model do you have?",
+        "What kinds of phone model are there?",
+        "What is the latest model phone in samsung?"
+      ],
+      "responses": [
+        "We have samsung Galaxy A Series (a12, a32, a42, a51, a52, a72), J Series (J7 pro, J7 prime, J7 max, j5 pro, j5 prime, j6, j2, j8), M Series (M51, M42, M31 & M12), S Series (s21 ultra, s20, s10 lite, s9, s8), F Series (F41, F12, F62, F02s), and Galaxy Tabs (S6 lite Wi-Fi, Tab A7 Wi-Fi, Tab S7+ LTE)"
+        ]
+    },
+    {
+      "tag": "5g",
+      "patterns": [
+        "Do you have 5g phones?",
+        "can you have 5g phones?"
+        ],
+      "responses": [
+        "yes, we have galaxy note ultra, s21 ultra, s20, w20, f52, m42, a52, a90",
+        "yes, we sell galaxy note ultra, s21 ultra, s20, w20, f52, m42, a52, a90"
+      ]
+    },
+    {
+      "tag": "tv",
+      "patterns": [
+        "Do you have QLED tv?",
+        "Do you have HD TV?"
+         ],
+      "responses": [
+        "yes, Samsung offers LED TVs like HD TV, The Frame TV, Full HD TV, 4K UHD TV, QLED 8K TV, QLED 4K TV, Curved TV, Smart TV with latest technology and 55 inch 4K Smart TV, 43-inch TE50A Smart HD TV, 32-inch Smart HD TV, 43 inches 4K Smart Crystal UHD TV, 32 inch Smart HD TV."
+      ]
+    },
+    {
+      "tag": "screensize",
+      "patterns": [
+        "tell me about screensize",
+        "What is the maximum screen size in samsung?"
+      ],
+      "responses": [
+        "85 is the biggest screensize. For Qled, screen size range from 55 to 85. For hd tv, we have the range from above 30 to 70"
+      ]
+    },
+    {
+      "tag": "fridge",
+      "patterns": [
+        "Do you have refridgerator?",
+        "Do you have single door fridge?",
+        "Do you have double door refridgerator?",
+        "What is the latest model fridge in samsung?"
+         ],
+      "responses": [
+        "Samsung offers Twin Cooling Plus Refrigerator 600L, Side By Side with SpaceMax Technology 700L, Top Mount Freezer with Convertible Freezer 235L, Top Mount Freezer with Curd Maestro 500L, Top Mount Freezer with Digital Inverter Technology 295L, Single Door with Stylish Grandé Design 200L, 1 Door with Digital Inverter Technology 190L, 345L Top Mount Refrigerator."
+      ]
+    },
+    {
+      "tag": "washingmachine",
+      "patterns": [
+        "Do you have washingmachine?",
+        "Do you have top load?",
+        "Do you have front load?",
+        "Do you have semi-automatic washing machine?",
+        "What is the latest model washing machine in samsung?"
+         ],
+      "responses": [
+        "Samsung offers 7kg Front Load Eco Bubble Washing Machine, 7.5kg Top Loading with Inverter Motor, 7kg Top Loading ActivWash, Top Load with Center Jet 6.5Kg, Semi Automatic with Easy To Move 7.2 kg, Top Loading with Diamond Drum 6.5Kg, Top Loading with Wobble Pulsator 7.5kg."
+      ]
+    },
+    {
+      "tag": "ac",
+      "patterns": [
+        "Do you have ac?",
+        "Do you have split ac?", 
+        "Do you have inverter ac?"
+         ],
+      "responses": [
+        "Samsung air conditioners are equipped with the best technology to keep your room crisp, fresh, and clean.Samsung offers a wide range of models ranging from 1 ton to 1.5 ton to 2-ton air conditioners.Samsung offers Convertible 5 in 1 AC with inverter, Split A C (1.5 ton 3 star inverter ac, 1 ton 3 star inverter ac, 1.5 ton 5 star inverter ac)."
+      ]
+    },
+    {
+      "tag": "online",
+      "patterns": [
+        "Can i order online?", 
+        "Can i make my order online?",
+        "Shall i book my product in online?"
+      ],
+      "responses": [
+        "Yes, ofcourse. You can."
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+    {"tag": "hours",
+      "patterns": [
+        "Opening hours of the store?",
+        "When does your shop open?",
+        "Your store opening time"
+      ],
+      "responses": [
+        "It is open from Monday-Saturday 9:00am-7:30pm"
+      ]
+    },
+    {"tag": "offers",
+      "patterns": [
+        "Do you have any offers?",
+        "Do you have any special offers?",
+        "Any special offers?"
+      ],
+      "responses": [
+        "Yes, It will start from May 17th and will last through May 31st. The Sale also has a segment of top-rated products from Smartphones like S21+, S20 FE 5G, M42. Samsung is also offering exchange value on old smartphones when buying a new Galaxy Smartphone."
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?"
+      ],
+      "responses": [
+        "Delivery takes 2-4 days",
+        "Shipping takes 2-4 days"
+      ]
+    }
+  ]
+}
